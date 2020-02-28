@@ -1,0 +1,762 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA307D9723D2217B00327F6F /* ImageLocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA307D9623D2217B00327F6F /* ImageLocal.swift */; };
+		DA619E3D238FEC45009CE91D /* DroneOverviewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA619E3C238FEC45009CE91D /* DroneOverviewTableViewController.swift */; };
+		DA619E3F23917679009CE91D /* DroneOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA619E3E23917679009CE91D /* DroneOperation.swift */; };
+		DA619E4C239286FF009CE91D /* DroneCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA619E4B239286FF009CE91D /* DroneCustomTableViewCell.swift */; };
+		DA7AD66023B6251E0094259F /* WebController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7AD65F23B6251E0094259F /* WebController.swift */; };
+		DA7AD66E23B916D20094259F /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7AD66D23B916D20094259F /* Notifications.swift */; };
+		DA80C3E523B56FC5006A9A93 /* TimeOptionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA80C3E423B56FC5006A9A93 /* TimeOptionController.swift */; };
+		DAA20A9523AD745000C1DE98 /* OperationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA20A9423AD745000C1DE98 /* OperationController.swift */; };
+		DAA20A9723AE417F00C1DE98 /* URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA20A9623AE417F00C1DE98 /* URLs.swift */; };
+		DAA2F56F23E84A720069FA50 /* droneTEst.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DAA2F56E23E84A720069FA50 /* droneTEst.jpeg */; };
+		DAA2F57123E84AA60069FA50 /* droneTEst2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DAA2F57023E84AA60069FA50 /* droneTEst2.jpeg */; };
+		DAA2F57323E84ABB0069FA50 /* droneTEst3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DAA2F57223E84ABB0069FA50 /* droneTEst3.jpeg */; };
+		DAA2F57523E84AE70069FA50 /* droneTEst4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DAA2F57423E84AE70069FA50 /* droneTEst4.jpeg */; };
+		DAA2F57723E84B2A0069FA50 /* droneTEst5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DAA2F57623E84B2A0069FA50 /* droneTEst5.jpeg */; };
+		DAA2F57923E84B4B0069FA50 /* droneTEst6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DAA2F57823E84B4B0069FA50 /* droneTEst6.jpeg */; };
+		DAA2F57B23E84B6D0069FA50 /* droneTEst7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DAA2F57A23E84B6D0069FA50 /* droneTEst7.jpeg */; };
+		DAA2F57D23E84B810069FA50 /* droneTEst8.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DAA2F57C23E84B810069FA50 /* droneTEst8.jpeg */; };
+		DAA2F57F23E84BD10069FA50 /* droneTEst9.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DAA2F57E23E84BD10069FA50 /* droneTEst9.jpeg */; };
+		DAA2F58123E84BED0069FA50 /* droneTEst10.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DAA2F58023E84BED0069FA50 /* droneTEst10.jpeg */; };
+		DAA2F58323E84C130069FA50 /* droneTEst11.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DAA2F58223E84C130069FA50 /* droneTEst11.jpeg */; };
+		DAA2F58523E84C360069FA50 /* droneTEst12.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DAA2F58423E84C360069FA50 /* droneTEst12.jpeg */; };
+		DAA2F58723E84C510069FA50 /* droneTEst13.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DAA2F58623E84C510069FA50 /* droneTEst13.jpeg */; };
+		DAB5486F237C062A00D717C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB5486E237C062A00D717C1 /* AppDelegate.swift */; };
+		DAB54871237C062A00D717C1 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB54870237C062A00D717C1 /* MapViewController.swift */; };
+		DAB54874237C062A00D717C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB54872237C062A00D717C1 /* Main.storyboard */; };
+		DAB54877237C062A00D717C1 /* HealthDroneLab.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DAB54875237C062A00D717C1 /* HealthDroneLab.xcdatamodeld */; };
+		DAB54879237C062B00D717C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAB54878237C062B00D717C1 /* Assets.xcassets */; };
+		DAB5487C237C062B00D717C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB5487A237C062B00D717C1 /* LaunchScreen.storyboard */; };
+		DAB54887237C062C00D717C1 /* HealthDroneLabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB54886237C062C00D717C1 /* HealthDroneLabTests.swift */; };
+		DAB54892237C062C00D717C1 /* HealthDroneLabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB54891237C062C00D717C1 /* HealthDroneLabUITests.swift */; };
+		DAB548A4237C068200D717C1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAB548A3237C068200D717C1 /* Default-568h@2x.png */; };
+		DAB548A6237C09E800D717C1 /* Hospital.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB548A5237C09E800D717C1 /* Hospital.swift */; };
+		DAB548A8237C20FB00D717C1 /* MapLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB548A7237C20FB00D717C1 /* MapLocationViewController.swift */; };
+		DAEF94DB23A284AB0039AD3C /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEF94DA23A284AB0039AD3C /* Resource.swift */; };
+		DAEF94DD23A284D00039AD3C /* HttpMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEF94DC23A284D00039AD3C /* HttpMethod.swift */; };
+		DAEF94DF23A284F50039AD3C /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEF94DE23A284F50039AD3C /* Operation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAB54883237C062C00D717C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAB54863237C062A00D717C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAB5486A237C062A00D717C1;
+			remoteInfo = HealthDroneLab;
+		};
+		DAB5488E237C062C00D717C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAB54863237C062A00D717C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAB5486A237C062A00D717C1;
+			remoteInfo = HealthDroneLab;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA307D9623D2217B00327F6F /* ImageLocal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLocal.swift; sourceTree = "<group>"; };
+		DA619E3C238FEC45009CE91D /* DroneOverviewTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroneOverviewTableViewController.swift; sourceTree = "<group>"; };
+		DA619E3E23917679009CE91D /* DroneOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroneOperation.swift; sourceTree = "<group>"; };
+		DA619E4B239286FF009CE91D /* DroneCustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DroneCustomTableViewCell.swift; path = ../Controllers/DroneCustomTableViewCell.swift; sourceTree = "<group>"; };
+		DA7AD65F23B6251E0094259F /* WebController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebController.swift; sourceTree = "<group>"; };
+		DA7AD66D23B916D20094259F /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		DA80C3E423B56FC5006A9A93 /* TimeOptionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeOptionController.swift; sourceTree = "<group>"; };
+		DAA20A9423AD745000C1DE98 /* OperationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OperationController.swift; path = HealthDroneLab/OperationController.swift; sourceTree = SOURCE_ROOT; };
+		DAA20A9623AE417F00C1DE98 /* URLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLs.swift; sourceTree = "<group>"; };
+		DAA2F56E23E84A720069FA50 /* droneTEst.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = droneTEst.jpeg; sourceTree = "<group>"; };
+		DAA2F57023E84AA60069FA50 /* droneTEst2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = droneTEst2.jpeg; sourceTree = "<group>"; };
+		DAA2F57223E84ABB0069FA50 /* droneTEst3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = droneTEst3.jpeg; sourceTree = "<group>"; };
+		DAA2F57423E84AE70069FA50 /* droneTEst4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = droneTEst4.jpeg; sourceTree = "<group>"; };
+		DAA2F57623E84B2A0069FA50 /* droneTEst5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = droneTEst5.jpeg; sourceTree = "<group>"; };
+		DAA2F57823E84B4B0069FA50 /* droneTEst6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = droneTEst6.jpeg; sourceTree = "<group>"; };
+		DAA2F57A23E84B6D0069FA50 /* droneTEst7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = droneTEst7.jpeg; sourceTree = "<group>"; };
+		DAA2F57C23E84B810069FA50 /* droneTEst8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = droneTEst8.jpeg; sourceTree = "<group>"; };
+		DAA2F57E23E84BD10069FA50 /* droneTEst9.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = droneTEst9.jpeg; sourceTree = "<group>"; };
+		DAA2F58023E84BED0069FA50 /* droneTEst10.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = droneTEst10.jpeg; sourceTree = "<group>"; };
+		DAA2F58223E84C130069FA50 /* droneTEst11.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = droneTEst11.jpeg; sourceTree = "<group>"; };
+		DAA2F58423E84C360069FA50 /* droneTEst12.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = droneTEst12.jpeg; sourceTree = "<group>"; };
+		DAA2F58623E84C510069FA50 /* droneTEst13.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = droneTEst13.jpeg; sourceTree = "<group>"; };
+		DAB5486B237C062A00D717C1 /* HealthDroneLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthDroneLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB5486E237C062A00D717C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DAB54870237C062A00D717C1 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		DAB54873237C062A00D717C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAB54876237C062A00D717C1 /* HealthDroneLab.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HealthDroneLab.xcdatamodel; sourceTree = "<group>"; };
+		DAB54878237C062B00D717C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAB5487B237C062B00D717C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DAB5487D237C062B00D717C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAB54882237C062C00D717C1 /* HealthDroneLabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthDroneLabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB54886237C062C00D717C1 /* HealthDroneLabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthDroneLabTests.swift; sourceTree = "<group>"; };
+		DAB54888237C062C00D717C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAB5488D237C062C00D717C1 /* HealthDroneLabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthDroneLabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB54891237C062C00D717C1 /* HealthDroneLabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthDroneLabUITests.swift; sourceTree = "<group>"; };
+		DAB54893237C062C00D717C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAB548A3237C068200D717C1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DAB548A5237C09E800D717C1 /* Hospital.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hospital.swift; sourceTree = "<group>"; };
+		DAB548A7237C20FB00D717C1 /* MapLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapLocationViewController.swift; sourceTree = "<group>"; };
+		DAEF94DA23A284AB0039AD3C /* Resource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
+		DAEF94DC23A284D00039AD3C /* HttpMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpMethod.swift; sourceTree = "<group>"; };
+		DAEF94DE23A284F50039AD3C /* Operation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAB54868237C062A00D717C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB5487F237C062C00D717C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB5488A237C062C00D717C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		135724B87AC57D80497EFE5B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DAB54862237C062A00D717C1 = {
+			isa = PBXGroup;
+			children = (
+				DAB548A3237C068200D717C1 /* Default-568h@2x.png */,
+				DAA2F56E23E84A720069FA50 /* droneTEst.jpeg */,
+				DAA2F57023E84AA60069FA50 /* droneTEst2.jpeg */,
+				DAA2F57223E84ABB0069FA50 /* droneTEst3.jpeg */,
+				DAA2F57423E84AE70069FA50 /* droneTEst4.jpeg */,
+				DAA2F57623E84B2A0069FA50 /* droneTEst5.jpeg */,
+				DAA2F57823E84B4B0069FA50 /* droneTEst6.jpeg */,
+				DAA2F57A23E84B6D0069FA50 /* droneTEst7.jpeg */,
+				DAA2F57C23E84B810069FA50 /* droneTEst8.jpeg */,
+				DAA2F57E23E84BD10069FA50 /* droneTEst9.jpeg */,
+				DAA2F58023E84BED0069FA50 /* droneTEst10.jpeg */,
+				DAA2F58223E84C130069FA50 /* droneTEst11.jpeg */,
+				DAA2F58423E84C360069FA50 /* droneTEst12.jpeg */,
+				DAA2F58623E84C510069FA50 /* droneTEst13.jpeg */,
+				DAB5486D237C062A00D717C1 /* HealthDroneLab */,
+				DAB54885237C062C00D717C1 /* HealthDroneLabTests */,
+				DAB54890237C062C00D717C1 /* HealthDroneLabUITests */,
+				DAB5486C237C062A00D717C1 /* Products */,
+				135724B87AC57D80497EFE5B /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		DAB5486C237C062A00D717C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAB5486B237C062A00D717C1 /* HealthDroneLab.app */,
+				DAB54882237C062C00D717C1 /* HealthDroneLabTests.xctest */,
+				DAB5488D237C062C00D717C1 /* HealthDroneLabUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAB5486D237C062A00D717C1 /* HealthDroneLab */ = {
+			isa = PBXGroup;
+			children = (
+				DAEF94D323A0FC3C0039AD3C /* Network */,
+				DAB548A2237C066300D717C1 /* Resources */,
+				DAB548A1237C064A00D717C1 /* Views */,
+				DAB548A0237C064300D717C1 /* Controllers */,
+				DAB5489F237C063400D717C1 /* Models */,
+				DAB5486E237C062A00D717C1 /* AppDelegate.swift */,
+				DAB54875237C062A00D717C1 /* HealthDroneLab.xcdatamodeld */,
+				DAB54872237C062A00D717C1 /* Main.storyboard */,
+				DAB54878237C062B00D717C1 /* Assets.xcassets */,
+				DAB5487A237C062B00D717C1 /* LaunchScreen.storyboard */,
+				DAB5487D237C062B00D717C1 /* Info.plist */,
+				DA307D9623D2217B00327F6F /* ImageLocal.swift */,
+			);
+			path = HealthDroneLab;
+			sourceTree = "<group>";
+		};
+		DAB54885237C062C00D717C1 /* HealthDroneLabTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAB54886237C062C00D717C1 /* HealthDroneLabTests.swift */,
+				DAB54888237C062C00D717C1 /* Info.plist */,
+			);
+			path = HealthDroneLabTests;
+			sourceTree = "<group>";
+		};
+		DAB54890237C062C00D717C1 /* HealthDroneLabUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DAB54891237C062C00D717C1 /* HealthDroneLabUITests.swift */,
+				DAB54893237C062C00D717C1 /* Info.plist */,
+			);
+			path = HealthDroneLabUITests;
+			sourceTree = "<group>";
+		};
+		DAB5489F237C063400D717C1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DAB548A5237C09E800D717C1 /* Hospital.swift */,
+				DA619E3E23917679009CE91D /* DroneOperation.swift */,
+				DAEF94DE23A284F50039AD3C /* Operation.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DAB548A0237C064300D717C1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DAA20A9423AD745000C1DE98 /* OperationController.swift */,
+				DA7AD65F23B6251E0094259F /* WebController.swift */,
+				DA619E3C238FEC45009CE91D /* DroneOverviewTableViewController.swift */,
+				DAB54870237C062A00D717C1 /* MapViewController.swift */,
+				DAB548A7237C20FB00D717C1 /* MapLocationViewController.swift */,
+				DA80C3E423B56FC5006A9A93 /* TimeOptionController.swift */,
+				DA7AD66D23B916D20094259F /* Notifications.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DAB548A1237C064A00D717C1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DA619E4B239286FF009CE91D /* DroneCustomTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DAB548A2237C066300D717C1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DAEF94D323A0FC3C0039AD3C /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				DAEF94DA23A284AB0039AD3C /* Resource.swift */,
+				DAEF94DC23A284D00039AD3C /* HttpMethod.swift */,
+				DAA20A9623AE417F00C1DE98 /* URLs.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAB5486A237C062A00D717C1 /* HealthDroneLab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB54896237C062C00D717C1 /* Build configuration list for PBXNativeTarget "HealthDroneLab" */;
+			buildPhases = (
+				DAB54867237C062A00D717C1 /* Sources */,
+				DAB54868237C062A00D717C1 /* Frameworks */,
+				DAB54869237C062A00D717C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HealthDroneLab;
+			productName = HealthDroneLab;
+			productReference = DAB5486B237C062A00D717C1 /* HealthDroneLab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAB54881237C062C00D717C1 /* HealthDroneLabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB54899237C062C00D717C1 /* Build configuration list for PBXNativeTarget "HealthDroneLabTests" */;
+			buildPhases = (
+				DAB5487E237C062C00D717C1 /* Sources */,
+				DAB5487F237C062C00D717C1 /* Frameworks */,
+				DAB54880237C062C00D717C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAB54884237C062C00D717C1 /* PBXTargetDependency */,
+			);
+			name = HealthDroneLabTests;
+			productName = HealthDroneLabTests;
+			productReference = DAB54882237C062C00D717C1 /* HealthDroneLabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DAB5488C237C062C00D717C1 /* HealthDroneLabUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB5489C237C062C00D717C1 /* Build configuration list for PBXNativeTarget "HealthDroneLabUITests" */;
+			buildPhases = (
+				DAB54889237C062C00D717C1 /* Sources */,
+				DAB5488A237C062C00D717C1 /* Frameworks */,
+				DAB5488B237C062C00D717C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAB5488F237C062C00D717C1 /* PBXTargetDependency */,
+			);
+			name = HealthDroneLabUITests;
+			productName = HealthDroneLabUITests;
+			productReference = DAB5488D237C062C00D717C1 /* HealthDroneLabUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAB54863237C062A00D717C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Matias Marek";
+				TargetAttributes = {
+					DAB5486A237C062A00D717C1 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					DAB54881237C062C00D717C1 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = DAB5486A237C062A00D717C1;
+					};
+					DAB5488C237C062C00D717C1 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = DAB5486A237C062A00D717C1;
+					};
+				};
+			};
+			buildConfigurationList = DAB54866237C062A00D717C1 /* Build configuration list for PBXProject "HealthDroneLab" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAB54862237C062A00D717C1;
+			productRefGroup = DAB5486C237C062A00D717C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAB5486A237C062A00D717C1 /* HealthDroneLab */,
+				DAB54881237C062C00D717C1 /* HealthDroneLabTests */,
+				DAB5488C237C062C00D717C1 /* HealthDroneLabUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAB54869237C062A00D717C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAA2F57323E84ABB0069FA50 /* droneTEst3.jpeg in Resources */,
+				DAA2F57723E84B2A0069FA50 /* droneTEst5.jpeg in Resources */,
+				DAA2F58723E84C510069FA50 /* droneTEst13.jpeg in Resources */,
+				DAA2F58523E84C360069FA50 /* droneTEst12.jpeg in Resources */,
+				DAA2F58323E84C130069FA50 /* droneTEst11.jpeg in Resources */,
+				DAA2F57D23E84B810069FA50 /* droneTEst8.jpeg in Resources */,
+				DAA2F57B23E84B6D0069FA50 /* droneTEst7.jpeg in Resources */,
+				DAA2F57523E84AE70069FA50 /* droneTEst4.jpeg in Resources */,
+				DAA2F58123E84BED0069FA50 /* droneTEst10.jpeg in Resources */,
+				DAB5487C237C062B00D717C1 /* LaunchScreen.storyboard in Resources */,
+				DAA2F57123E84AA60069FA50 /* droneTEst2.jpeg in Resources */,
+				DAA2F57F23E84BD10069FA50 /* droneTEst9.jpeg in Resources */,
+				DAB548A4237C068200D717C1 /* Default-568h@2x.png in Resources */,
+				DAA2F57923E84B4B0069FA50 /* droneTEst6.jpeg in Resources */,
+				DAA2F56F23E84A720069FA50 /* droneTEst.jpeg in Resources */,
+				DAB54879237C062B00D717C1 /* Assets.xcassets in Resources */,
+				DAB54874237C062A00D717C1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB54880237C062C00D717C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB5488B237C062C00D717C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAB54867237C062A00D717C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAEF94DF23A284F50039AD3C /* Operation.swift in Sources */,
+				DAB548A8237C20FB00D717C1 /* MapLocationViewController.swift in Sources */,
+				DAB54871237C062A00D717C1 /* MapViewController.swift in Sources */,
+				DAEF94DB23A284AB0039AD3C /* Resource.swift in Sources */,
+				DAEF94DD23A284D00039AD3C /* HttpMethod.swift in Sources */,
+				DA80C3E523B56FC5006A9A93 /* TimeOptionController.swift in Sources */,
+				DA619E3D238FEC45009CE91D /* DroneOverviewTableViewController.swift in Sources */,
+				DA7AD66023B6251E0094259F /* WebController.swift in Sources */,
+				DAB548A6237C09E800D717C1 /* Hospital.swift in Sources */,
+				DA619E4C239286FF009CE91D /* DroneCustomTableViewCell.swift in Sources */,
+				DAA20A9723AE417F00C1DE98 /* URLs.swift in Sources */,
+				DA7AD66E23B916D20094259F /* Notifications.swift in Sources */,
+				DA619E3F23917679009CE91D /* DroneOperation.swift in Sources */,
+				DAB54877237C062A00D717C1 /* HealthDroneLab.xcdatamodeld in Sources */,
+				DAA20A9523AD745000C1DE98 /* OperationController.swift in Sources */,
+				DAB5486F237C062A00D717C1 /* AppDelegate.swift in Sources */,
+				DA307D9723D2217B00327F6F /* ImageLocal.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB5487E237C062C00D717C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB54887237C062C00D717C1 /* HealthDroneLabTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB54889237C062C00D717C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB54892237C062C00D717C1 /* HealthDroneLabUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAB54884237C062C00D717C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAB5486A237C062A00D717C1 /* HealthDroneLab */;
+			targetProxy = DAB54883237C062C00D717C1 /* PBXContainerItemProxy */;
+		};
+		DAB5488F237C062C00D717C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAB5486A237C062A00D717C1 /* HealthDroneLab */;
+			targetProxy = DAB5488E237C062C00D717C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DAB54872237C062A00D717C1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAB54873237C062A00D717C1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DAB5487A237C062B00D717C1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAB5487B237C062B00D717C1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAB54894237C062C00D717C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DAB54895237C062C00D717C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAB54897237C062C00D717C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HealthDroneLab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = student.sdu.mmare15.HealthDroneLab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAB54898237C062C00D717C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HealthDroneLab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = student.sdu.mmare15.HealthDroneLab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DAB5489A237C062C00D717C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HealthDroneLabTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = student.sdu.mmaer15.HealthDroneLabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HealthDroneLab.app/HealthDroneLab";
+			};
+			name = Debug;
+		};
+		DAB5489B237C062C00D717C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HealthDroneLabTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = student.sdu.mmaer15.HealthDroneLabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HealthDroneLab.app/HealthDroneLab";
+			};
+			name = Release;
+		};
+		DAB5489D237C062C00D717C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HealthDroneLabUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = student.sdu.mmaer15.HealthDroneLabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HealthDroneLab;
+			};
+			name = Debug;
+		};
+		DAB5489E237C062C00D717C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HealthDroneLabUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = student.sdu.mmaer15.HealthDroneLabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HealthDroneLab;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAB54866237C062A00D717C1 /* Build configuration list for PBXProject "HealthDroneLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB54894237C062C00D717C1 /* Debug */,
+				DAB54895237C062C00D717C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAB54896237C062C00D717C1 /* Build configuration list for PBXNativeTarget "HealthDroneLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB54897237C062C00D717C1 /* Debug */,
+				DAB54898237C062C00D717C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAB54899237C062C00D717C1 /* Build configuration list for PBXNativeTarget "HealthDroneLabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB5489A237C062C00D717C1 /* Debug */,
+				DAB5489B237C062C00D717C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAB5489C237C062C00D717C1 /* Build configuration list for PBXNativeTarget "HealthDroneLabUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB5489D237C062C00D717C1 /* Debug */,
+				DAB5489E237C062C00D717C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DAB54875237C062A00D717C1 /* HealthDroneLab.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DAB54876237C062A00D717C1 /* HealthDroneLab.xcdatamodel */,
+			);
+			currentVersion = DAB54876237C062A00D717C1 /* HealthDroneLab.xcdatamodel */;
+			path = HealthDroneLab.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DAB54863237C062A00D717C1 /* Project object */;
+}
