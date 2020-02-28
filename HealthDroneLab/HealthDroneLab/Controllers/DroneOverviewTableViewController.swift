@@ -61,40 +61,54 @@ class DroneOverviewTableController: UITableViewController, SetUrl {
         return cell
     }
     
-    
-    
+
     private func fetchOperation(){
         if let url = droneOperationURL {
-            
             DispatchQueue.global(qos: .userInitiated).async {
                 [weak self] in
-                
-                let pastOperations = Resource<[Operation]>(get: url)
-                
-                URLSession.shared.load(pastOperations) {
-                    
-                    if let pastOperations = $0 {
-                        for operations in pastOperations {
-                            
-                            let number = Int.random(in: 2 ..< 13)
-                            
-                            let anotherDrone = DroneOperation(droneOperationUUID: operations.uniqueIdentifier, droneName: operations.uas.nickname, droneDescription: operations.flightStatus.rawValue.self, droneImage: "droneTEst\(number).jpeg", droneTakeOffCoordinate: operations.takeOffPosition.getCoordinateAsString(), droneLandingCoordinate: operations.landPosition.getCoordinateAsString())
-                            
-                            self!.droneDocuments.append(anotherDrone)
-                        }
-                        DispatchQueue.main.async {
-                            if url == self?.droneOperationURL {
-                                self!.tableView.reloadData()
-                            }
-                            
-                        }
+                let operations = Resource<[Operation]>(get: url)
+                URLSession.shared.load(operations) {
+                    if let operations = $0 {
+                        self!.insertIntoDroneDocument(operations: operations)
                         
+                        if self!.requestIsRelevant(localURL: url) {
+                            self!.updateTableView()
+                        }
                     } else {
                         self!.failedDroneFetchUI()
                     }
-                    
                 }
             }
+        }
+    }
+    
+    private func insertIntoDroneDocument(operations: [Operation]) {
+        for operation in operations {
+            
+            self.droneDocuments.append(extractDrone(operation: operation))
+        }
+    }
+    
+    private func extractDrone(operation: Operation) -> DroneOperation {
+         let drone = DroneOperation(droneOperationUUID: operation.uniqueIdentifier, droneName: operation.uas.nickname, droneDescription: operation.flightStatus.rawValue.self, droneImage: "droneTEst\(generateRandomImage()).jpeg", droneTakeOffCoordinate: operation.takeOffPosition.getCoordinateAsString(), droneLandingCoordinate: operation.landPosition.getCoordinateAsString())
+        
+        return drone
+    }
+    
+    private func generateRandomImage() -> Int {
+        return Int.random(in: 2 ..< 13) //Number of photos
+    }
+    
+    private func requestIsRelevant(localURL: URL) -> Bool {
+        if localURL == self.droneOperationURL {
+               return true
+        }
+        return false
+    }
+    
+    private func updateTableView() {
+        DispatchQueue.main.async {
+            self.tableView.reloadData()
         }
     }
     
@@ -105,9 +119,7 @@ class DroneOverviewTableController: UITableViewController, SetUrl {
         
         self.present(alert, animated: true)
     }
-    
-    
-    
+
 }
 
 
